@@ -4,6 +4,8 @@ This project covers the basics of C: declaring and assigning variables (`char`, 
 
 ## Tasks
 
-| File | Description |
-|------|-------------|
-| `0-positive_or_negative.c` | Prints whether a random number is positive, zero or negative |
+| File                      | Description                                 |
+|---------------------------|---------------------------------------------|
+|`0-positive_or_negative.c` | Prints whether a random number is positive, zero or negative             |
+----------------------------|---------------------------------------------|
+| `1-last_digit.c`          | Prints the last digit of a random number and whether it is greater than 5, 0, or less than 6 and not 0                 ||---------------------------|---------------------------------------------|
