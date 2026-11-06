@@ -4,7 +4,7 @@ This project covers functions in C: declaring prototypes, defining and calling f
 
 ## Tasks
 
-| File | Description |
-|------|-------------|
-| `main.h` | Header file with the prototypes of all functions |
-| `0-putchar.c` | Prints `_putchar` followed by a new line |
+| File          | Description                                              |
+|---------------|----------------------------------------------------------|
+| `main.h`      | Header file with the prototypes of all functions         |
+|---------------|----------------------------------------------------------||`0-putchar.c`  | Prints `_putchar` followed by a new line                 ||---------------|----------------------------------------------------------||`1-alphabet.c` | Function that prints the alphabet in lowercase followed by a new line                                                                ||---------------|----------------------------------------------------------||
