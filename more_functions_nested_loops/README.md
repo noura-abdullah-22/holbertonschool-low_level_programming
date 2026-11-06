@@ -15,4 +15,6 @@ This project practices writing functions in C with nested loops, header files (`
 | `5-more_numbers.c` | Function that prints 10 times the numbers from 0 to 14, followed by a new lin|| `6-print_line.c` | Function that draws a straight line in the terminal |
 | `7-print_diagonal.c` | Function that draws a diagonal line on the terminal |
 | `8-print_square.c` | Function that prints a square of `#`, followed by a new line |
+| `9-fizz_buzz.c` | Program that prints 1 to 100 with Fizz, Buzz and FizzBuzz for multiples of 3, 5 and both |
+
 
