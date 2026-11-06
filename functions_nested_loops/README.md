@@ -18,3 +18,4 @@ This project covers functions in C: declaring prototypes, defining and calling f
 | `8-24_hours.c` | Function that prints every minute of the day from 00:00 to 23:59 |
 | `9-times_table.c` | Function that prints the 9 times table, starting with 0 |
 | `10-add.c` | Function that adds two integers and returns the result |
+| `11-print_to_98.c` | Function that prints all integers from n to 98 |
