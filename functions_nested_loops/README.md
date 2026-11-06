@@ -14,3 +14,4 @@ This project covers functions in C: declaring prototypes, defining and calling f
 | `4-isalpha.c` | Function that checks for alphabetic character |
 | `5-sign.c` | Function that prints the sign of a number and returns 1, 0 or -1 |
 | `6-abs.c` | Function that computes the absolute value of an integer |
+| `7-print_last_digit.c` | Function that prints the last digit of a number and returns its value |
