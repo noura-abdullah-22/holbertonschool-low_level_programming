@@ -8,3 +8,4 @@ This project practices writing functions in C with nested loops, header files (`
 |------|-------------|
 | `main.h` | Header file with the prototypes of all functions |
 | `0-isupper.c` | Function that checks for uppercase character |
+| `1-isdigit.c` | Function that checks for a digit (0 through 9) |
