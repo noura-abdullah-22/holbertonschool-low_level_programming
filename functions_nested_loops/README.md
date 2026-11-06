@@ -17,3 +17,4 @@ This project covers functions in C: declaring prototypes, defining and calling f
 | `7-print_last_digit.c` | Function that prints the last digit of a number and returns its value |
 | `8-24_hours.c` | Function that prints every minute of the day from 00:00 to 23:59 |
 | `9-times_table.c` | Function that prints the 9 times table, starting with 0 |
+| `10-add.c` | Function that adds two integers and returns the result |
