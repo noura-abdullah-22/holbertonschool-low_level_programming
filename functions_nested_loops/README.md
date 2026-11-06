@@ -10,3 +10,4 @@ This project covers functions in C: declaring prototypes, defining and calling f
 | `0-putchar.c` | Prints `_putchar` followed by a new line |
 | `1-alphabet.c` | Function that prints the alphabet in lowercase followed by a new line |
 | `2-print_alphabet_x10.c` | Function that prints the lowercase alphabet 10 times, each followed by a new line |
+| `3-islower.c` | Function that checks for lowercase character |
