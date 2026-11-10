@@ -25,3 +25,4 @@ This project covers pointers, arrays and strings in C.
 | `7-leet.c` | Function that encodes a string into 1337 |
 | `0-memset.c` | Function that fills memory with a constant byte |
 | `1-memcpy.c` | Function that copies a memory area |
+| `2-strchr.c` | Function that locates a character in a string |
