@@ -19,3 +19,4 @@ This project covers pointers, arrays and strings in C.
 | `1-strncat.c` | Function that concatenates two strings, using at most n bytes from src |
 | `2-strncpy.c` | Function that copies a string, like strncpy |
 | `3-strcmp.c` | Function that compares two strings, like strcmp |
+| `4-rev_array.c` | Function that reverses the content of an array of integers |
