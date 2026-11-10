@@ -15,3 +15,4 @@ This project covers pointers, arrays and strings in C.
 | `8-print_array.c` | Function that prints n elements of an array of integers |
 | `9-strcpy.c` | Function that copies a string, including the null byte, to a buffer |
 | `100-atoi.c` | Function that converts a string to an integer |
+| `0-strcat.c` | Function that concatenates two strings |
