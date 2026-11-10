@@ -10,3 +10,4 @@ This project covers pointers, arrays and strings in C.
 | `3-puts.c` | Function that prints a string, followed by a new line |
 | `4-print_rev.c` | Function that prints a string in reverse, followed by a new line |
 | `5-rev_string.c` | Function that reverses a string |
+| `6-puts2.c` | Function that prints every other character of a string |
