@@ -17,3 +17,4 @@ This project covers pointers, arrays and strings in C.
 | `100-atoi.c` | Function that converts a string to an integer |
 | `0-strcat.c` | Function that concatenates two strings |
 | `1-strncat.c` | Function that concatenates two strings, using at most n bytes from src |
+| `2-strncpy.c` | Function that copies a string, like strncpy |
