@@ -1,0 +1,7 @@
+# C - Pointers, arrays and strings
+
+This project covers pointers, arrays and strings in C.
+
+| File | Description |
+|------|-------------|
+| `0-reset_to_98.c` | Function that updates the value an int pointer points to, to 98 |
