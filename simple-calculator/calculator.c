@@ -64,6 +64,8 @@ int main(void)
 			return (1);
 		if (choice == 1)
 			printf("Result: %g\n", a + b);
+		else if (choice == 2)
+			printf("Result: %g\n", a - b);
 	}
 	return (0);
 }
