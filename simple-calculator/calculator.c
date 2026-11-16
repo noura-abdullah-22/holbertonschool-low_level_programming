@@ -1,6 +1,20 @@
 #include <stdio.h>
 
 /**
+ * clear_input - discards the rest of the current input line
+ *
+ * Return: void
+ */
+void clear_input(void)
+{
+	int ret;
+
+	ret = scanf("%*[^\n]");
+	ret = scanf("%*c");
+	(void)ret;
+}
+
+/**
  * print_menu - prints the calculator menu
  *
  * Return: void
@@ -16,21 +30,49 @@ void print_menu(void)
 }
 
 /**
- * read_operands - reads the two numbers A and B from the user
- * @a: pointer to store the first number
- * @b: pointer to store the second number
+ * read_number - asks for a number until a valid one is entered
+ * @prompt: the text to show before reading
+ * @n: pointer to store the number
  *
- * Return: 1 on success, 0 on failure
+ * Return: 1 on success, 0 if the input has ended
  */
-int read_operands(double *a, double *b)
+int read_number(char *prompt, double *n)
 {
-	printf("A: ");
-	if (scanf("%lf", a) != 1)
-		return (0);
-	printf("B: ");
-	if (scanf("%lf", b) != 1)
-		return (0);
-	return (1);
+	int ret;
+
+	while (1)
+	{
+		printf("%s", prompt);
+		ret = scanf("%lf", n);
+		if (ret == 1)
+			return (1);
+		if (ret == EOF)
+			return (0);
+		printf("Invalid number\n");
+		clear_input();
+	}
+}
+
+/**
+ * calculate - performs the operation chosen by the user
+ * @choice: the menu option (1 to 4)
+ * @a: the first number
+ * @b: the second number
+ *
+ * Return: void
+ */
+void calculate(int choice, double a, double b)
+{
+	if (choice == 1)
+		printf("Result: %g\n", a + b);
+	else if (choice == 2)
+		printf("Result: %g\n", a - b);
+	else if (choice == 3)
+		printf("Result: %g\n", a * b);
+	else if (b == 0)
+		printf("Error: division by zero\n");
+	else
+		printf("Result: %g\n", a / b);
 }
 
 /**
@@ -41,6 +83,7 @@ int read_operands(double *a, double *b)
 int main(void)
 {
 	int choice;
+	int ret;
 	double a;
 	double b;
 
@@ -48,8 +91,15 @@ int main(void)
 	while (1)
 	{
 		print_menu();
-		if (scanf("%d", &choice) != 1)
-			return (1);
+		ret = scanf("%d", &choice);
+		if (ret == EOF)
+			break;
+		if (ret != 1)
+		{
+			printf("Invalid choice\n");
+			clear_input();
+			continue;
+		}
 		if (choice == 0)
 		{
 			printf("Bye!\n");
@@ -60,18 +110,9 @@ int main(void)
 			printf("Invalid choice\n");
 			continue;
 		}
-		if (!read_operands(&a, &b))
-			return (1);
-		if (choice == 1)
-			printf("Result: %g\n", a + b);
-		else if (choice == 2)
-			printf("Result: %g\n", a - b);
-		else if (choice == 3)
-			printf("Result: %g\n", a * b);
-		else if (b == 0)
-			printf("Error: division by zero\n");
-		else
-			printf("Result: %g\n", a / b);
+		if (!read_number("A: ", &a) || !read_number("B: ", &b))
+			break;
+		calculate(choice, a, b);
 	}
 	return (0);
 }

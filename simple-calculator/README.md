@@ -28,6 +28,6 @@ Numbers are read and calculated as decimals (`double`), so the calculator suppor
 
 ## Known limitations
 
-- Only the menu option is validated (it must be an integer between 0 and 4).
-- Non-numeric input (for example `x`, `hello` or `1abc`) is not handled and may cause the program to stop.
+- Invalid menu choices (non-numeric or out of range) print `Invalid choice` and show the menu again.
+- Non-numeric numbers print `Invalid number` and ask again. The rest of the invalid line is discarded so the program never loops forever.
 - Division by zero is detected and reported as an error instead of being calculated.
