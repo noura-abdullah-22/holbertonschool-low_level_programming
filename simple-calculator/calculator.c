@@ -68,6 +68,10 @@ int main(void)
 			printf("Result: %g\n", a - b);
 		else if (choice == 3)
 			printf("Result: %g\n", a * b);
+		else if (b == 0)
+			printf("Error: division by zero\n");
+		else
+			printf("Result: %g\n", a / b);
 	}
 	return (0);
 }
