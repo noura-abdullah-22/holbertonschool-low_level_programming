@@ -6,3 +6,4 @@ This project covers structures and typedef in C.
 |------|-------------|
 | `dog.h` | Header file that defines the `struct dog` type and the function prototypes |
 | `1-init_dog.c` | Function that initializes a variable of type struct dog |
+| `2-print_dog.c` | Function that prints a struct dog |
