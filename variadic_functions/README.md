@@ -8,3 +8,4 @@ This project covers variadic functions in C: va_start, va_arg, va_end, and the c
 |------|-------------|
 | variadic_functions.h | Header file with all prototypes |
 | 0-sum_them_all.c | Returns the sum of all its parameters |
+| 1-print_numbers.c | Prints numbers separated by a separator, followed by a new line |
