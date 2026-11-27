@@ -8,3 +8,4 @@ This project covers function pointers in C: what they are, what they hold, and h
 |------|-------------|
 | function_pointers.h | Header file with all prototypes |
 | 0-print_name.c | Prints a name using a function pointer |
+| 1-array_iterator.c | Executes a function on each element of an array |
