@@ -11,3 +11,4 @@ This project covers recursion in C: what it is, how to implement it, and when to
 | 1-print_rev_recursion.c | Prints a string in reverse, using recursion |
 | 2-strlen_recursion.c | Returns the length of a string, using recursion |
 | 3-factorial.c | Returns the factorial of a given number |
+| 4-pow_recursion.c | Returns x raised to the power of y |
